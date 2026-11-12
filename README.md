@@ -36,26 +36,27 @@ A README.md file containing the project overview, deliverables, selected MVP (Mi
 
 The following features have been selected for my MVP, alongside the reasons for using them:
 
-[F01.] Homepage with featured tips and projects: Show HomeHub purpose, featured content and useful entry points.
-[F02.] Category-based browsing: Browse mock projects by at least three home-related categories.
-[F03.] Keyword search: Search mock content using functional JavaScript keyword matching.
-[F04.] Filtering and sorting: Filter and/or sort sample content using controls that alter results.
-[F05.] Detailed post/project page: Display a selected project with useful structured information.
-[F06.] Submit a tip, guide or recommendation: Validate a user-facing submission form and show a preview or on-page result.
-[F07.] Photographs and project galleries: Provide a gallery, thumbnails or image viewer with working controls.
-[F09.] Registration and login pages: Mock sign-up and login forms with appropriate client-side validation; no genuine authentication.
-[F10.] User profile page: Show a sample member profile and their contributed content.
-[F11.] Comments and discussion: Demonstrate adding/viewing sample comments in browser memory.
-[F12] Ratings, likes or helpful votes: Provide functional simulated voting or ratings feedback.
-[F13.] About and Contact pages: Give HomeHub information and a functional, validated contact form.
-[F15.] Cost and materials breakdown: Display structured material lists and project cost breakdowns.
-[F16.] Bookmark or save a project: Simulate saving/removing favourite projects in the browser.
-[F17.] Ask a question and receive answers: Demonstrate a question and answer interface with mock data.
-[F20.] Community moderation and reporting: Prototype a working report-content interaction; real moderation is deferred.
+\[F01.] Homepage with featured tips and projects: Show HomeHub purpose, featured content and useful entry points.
+\[F02.] Category-based browsing: Browse mock projects by at least three home-related categories.
+\[F03.] Keyword search: Search mock content using functional JavaScript keyword matching.
+\[F04.] Filtering and sorting: Filter and/or sort sample content using controls that alter results.
+\[F05.] Detailed post/project page: Display a selected project with useful structured information.
+\[F06.] Submit a tip, guide or recommendation: Validate a user-facing submission form and show a preview or on-page result.
+\[F07.] Photographs and project galleries: Provide a gallery, thumbnails or image viewer with working controls.
+\[F09.] Registration and login pages: Mock sign-up and login forms with appropriate client-side validation; no genuine authentication.
+\[F10.] User profile page: Show a sample member profile and their contributed content.
+\[F11.] Comments and discussion: Demonstrate adding/viewing sample comments in browser memory.
+\[F12] Ratings, likes or helpful votes: Provide functional simulated voting or ratings feedback.
+\[F13.] About and Contact pages: Give HomeHub information and a functional, validated contact form.
+\[F15.] Cost and materials breakdown: Display structured material lists and project cost breakdowns.
+\[F16.] Bookmark or save a project: Simulate saving/removing favourite projects in the browser.
+\[F17.] Ask a question and receive answers: Demonstrate a question and answer interface with mock data.
+\[F20.] Community moderation and reporting: Prototype a working report-content interaction; real moderation is deferred.
 
 On top of these features, this website must have accessability compatability. As well as a coheasive structure that does not confuse the user.
 
-### Technical, design and legal constraints
+
+### Technical, design, ethical and legal constraints
 
 All images sourced outside of own data must be referenced, this will be done at the bottom of this page with clear notation on where this content has been implemented, alongside the source of this data.
 
