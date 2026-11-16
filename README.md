@@ -46,7 +46,7 @@ The following features have been selected for my MVP, alongside the reasons for 
 \[F09.] Registration and login pages: Mock sign-up and login forms with appropriate client-side validation; no genuine authentication.
 \[F10.] User profile page: Show a sample member profile and their contributed content.
 \[F11.] Comments and discussion: Demonstrate adding/viewing sample comments in browser memory.
-\[F12] Ratings, likes or helpful votes: Provide functional simulated voting or ratings feedback.
+\[F12.] Ratings, likes or helpful votes: Provide functional simulated voting or ratings feedback.
 \[F13.] About and Contact pages: Give HomeHub information and a functional, validated contact form.
 \[F15.] Cost and materials breakdown: Display structured material lists and project cost breakdowns.
 \[F16.] Bookmark or save a project: Simulate saving/removing favourite projects in the browser.
@@ -64,17 +64,19 @@ Accessability is a first and must when considering wesbite navigation, so it mus
 
 Any posts, including ones made with mock data, must have a clear disclaimer labling if the work presented is a normal household tip or work that can only be completed by a qualified professional. So any posts detailing gas works, electrical works, structural works, or any releveant professional-only work not listed here MUST be clearly defined as something that can only be completed by professionals. This will be adressed in the post creation, moderation and post viewing implementation.
 
-Mock logins, votes, uploads, saved submissions, etc. Will be labled as non-secure, non-permanent systems that cannot upload to a backend database of any form in order to not break GDPR.
+Mock logins, likes, uploads, saved submissions, etc. Will be labled as non-secure, non-permanent systems that cannot upload to a backend database of any form in order to not break GDPR.
 
 ### Progress tracker
+
 #### Mock data sets
+
 Posts Mock Data + Comments Mock Data -- [!]
 
-Post mock data will contain the following: Post ID, User ID, Post title, Post Description, Post tags, Post Pictures, Post likes/bookmarks/shares, Post Comments/Comment likes/Comment ID/User ID, Materials used (optional for each post) 
+Post mock data will contain the following: Post ID, Post Type (Tip, Suggestion, Project, Guide), User ID, Post title, Post Description, Post tags, Post Pictures, Post likes/bookmarks/shares, Post Comments/Comment likes/Comment ID/User ID, Materials used (optional for each post) 
 
 Profile Mock Data -- [!]
 
-Profile Mock Data will include the following: User ID, Username, "About me", Profile picture, User's own posts, User's own questions/answers 
+Profile Mock Data will include the following: User ID, Username, "About me", Profile picture, User's own posts (ID), User's own questions/answers (ID)
 
 Q&A Mock Data -- [!]
 
@@ -83,3 +85,41 @@ Q&A Mock Data will include: Q&A ID, Question User ID, Answer User ID, Q&A Questi
 Bookmarks Mock Data -- [!]
 
 Bookmarks Mock Data will include: Post Order ID, Post ID 
+
+
+
+#### Always-on-top features
+
+Search bar -- [!]
+
+Includes:
+[F03] [!] Keyword searching, user must be able to input a word and have the system search posts for matching content, displaying them to the user.
+[F04] [!] Filtering and sorting, user must be able to select from a tag to filter on the search bar, culling results that do not have that matching tag (built-in tags, no user tags)
+
+Page navigation -- [!]
+
+Includes:
+[F01] [!] {PARTIAL} Home page button (2 of them, 1 text and 1 logo button) that sends the user to the home page of the website.
+[F05] [!] {PARTIAL} Posts page button (Labled "Explore") that sends the user to the posts page.
+[F09] [!] {PARTIAL} Login page button and Sign Up page button, sends the user to the login page and sign-up page respectivley.
+[F10] [!] {PARTIAL} User Profile page button, sends the user to their profile page
+[F13] [!] {PARTIAL} About Us page button and Contact Us page button, sends the user to the About us page and Contact Us page respectivley.
+[F17] [!] {PARTIAL} Q&A page button, sends the user to the Q&A page.
+
+#### Home page
+
+Home page contents -- [!]
+
+Includes:
+[F01] [!] {PART 1} Curated Selection of tips and posts that are readable from the home page.
+[F01] [!] {PART 2} Quick links to other parts of the site in big buttons for ease-of-access (Posts, User Profile, Q&A,)
+[F01] [!] {PART 3} Intructionary message informing the user of this website and its functions, guiding the user on what each page is for.
+
+#### Posts page
+
+Mock Posts -- [!]
+
+Includes:
+[F05] [!] {PART 1} Basic post overview container, including the following information: Post title, Post Creator (User).
+[F05] [!] {PART 2} Post that pops onto the screen and allows the user to read the full post upon clicking on the title, including the following information: Title, full image gallery, Materials used and cost breakdown (Project only), post description, Post likes/shares/bookmarks, Post comments, Post comment submission.
+
