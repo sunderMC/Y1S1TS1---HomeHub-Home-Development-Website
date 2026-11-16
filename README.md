@@ -66,3 +66,20 @@ Any posts, including ones made with mock data, must have a clear disclaimer labl
 
 Mock logins, votes, uploads, saved submissions, etc. Will be labled as non-secure, non-permanent systems that cannot upload to a backend database of any form in order to not break GDPR.
 
+### Progress tracker
+#### Mock data sets
+Posts Mock Data + Comments Mock Data -- [!]
+
+Post mock data will contain the following: Post ID, User ID, Post title, Post Description, Post tags, Post Pictures, Post likes/bookmarks/shares, Post Comments/Comment likes/Comment ID/User ID, Materials used (optional for each post) 
+
+Profile Mock Data -- [!]
+
+Profile Mock Data will include the following: User ID, Username, "About me", Profile picture, User's own posts, User's own questions/answers 
+
+Q&A Mock Data -- [!]
+
+Q&A Mock Data will include: Q&A ID, Question User ID, Answer User ID, Q&A Question, Q&A Answer
+
+Bookmarks Mock Data -- [!]
+
+Bookmarks Mock Data will include: Post Order ID, Post ID 
