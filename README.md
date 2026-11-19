@@ -182,3 +182,7 @@ Includes:
 
 Includes:
 [F13] [!] A form to fill out with the users email, the reason of why they want to contact HomeHub (Technical difficulties, suggestions, general queries, other) And a text box to describe or provide information to homehub. Below that is a button to submit this information, which gets sent to an email adress managed by homehub (non-existant, example email will be provided)
+
+
+### Sources
+1. Bootstrap - Resources used to streamline desktop/mobile compatability
