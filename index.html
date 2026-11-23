@@ -1,22 +1,32 @@
-<!DOCTYPE html>
-<!--bush bish bash-->
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>HomeHub</title>
+    <title>My Project</title>
+    <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
-    <link rel="icon" type="image/x-icon" href="./favicon.ico">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
-<body>
-    <div id="heading1">
-        <h1> HomeHub</h1>
-    </div>
-    <!-- header contains the sites logo and title-->
 
-    <script src="./script.js"></script>
+<!-- Im re-doing everything because fuck html why is its being a pain in the ass-->
+<!-- Like, the whole random spacing thing i could handle, but whatever the fuck happened to my stylesheet caused the colors to go haywire and just die-->
+<!-- even after 30 minutes of attempting a fix nothing even changed it-->
+<!-- ffs-->
+<!-- stylesheet worked for legit everthing except spacing and colours-->
+<!-- trying a different boostrap link this time, might fix a few issues-->
+<!-- found out it was actually bootstrap throwing a hissy fit, need to use bootstraps own containers and methods-->
+
+<body>
+    <div class="container-fluid" style="background-color: #481d1d; height: 10%; padding: 0px; margin: 0px" >
+        <img src="homehublogo.png" alt="HomeHub Logo" class="img-fluid" style="width: 100px; height: auto;">
+    </div>
+    <div class="navbar">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="posts.html" class="nav-link">Posts</a>
+        <a href="qna.html" class="nav-link">Questions & Answers</a>
+        <a href="login.html" class="nav-link">Login</a>
+        <a href="register.html" class="nav-link">Sign-Up</a>
+        <a href="about.html" class="nav-link">About Us</a>
+        <a href="contact.html" class="nav-link">Contact Us</a>
+    </div>
     <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL" crossorigin="anonymous"></script>
 </body>
-</html>
-s
